@@ -1,4 +1,4 @@
-checksum: 9340
+checksum: 6353
 manuallyEdited: 0
 timezoneMinutes: 0
 ppmunit: 0
@@ -84,13 +84,13 @@ speakerVolume: 4
 vBatMin: 60
 vBatMax: 80
 backlightBright: 0
-globalTimer: 254
+globalTimer: 372
 bluetoothBaudrate: 0
 bluetoothMode: OFF
 countryCode: 0
 pwrOnSpeed: 2
 pwrOffSpeed: 1
-noJitterFilter: 0
+noJitterFilter: 1
 imperial: 0
 disableRssiPoweroffAlarm: 0
 USBMode: 0
