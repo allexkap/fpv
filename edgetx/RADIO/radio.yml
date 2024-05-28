@@ -1,4 +1,4 @@
-checksum: 65223
+checksum: 9340
 manuallyEdited: 0
 timezoneMinutes: 0
 ppmunit: 0
@@ -78,13 +78,13 @@ hapticLength: 2
 beepLength: 2
 hapticStrength: 2
 gpsFormat: 0
-audioMuteEnable: 0
+audioMuteEnable: 1
 speakerPitch: 0
 speakerVolume: 4
 vBatMin: 60
 vBatMax: 80
 backlightBright: 0
-globalTimer: 167
+globalTimer: 254
 bluetoothBaudrate: 0
 bluetoothMode: OFF
 countryCode: 0
