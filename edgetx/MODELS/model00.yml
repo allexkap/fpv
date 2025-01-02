@@ -83,6 +83,134 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: ""
+ -
+   weight: 100
+   destCh: 4
+   srcRaw: P1
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   speedPrec: 0
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 5
+   srcRaw: P2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   speedPrec: 0
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 6
+   srcRaw: SA
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   speedPrec: 0
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 7
+   srcRaw: SB
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   speedPrec: 0
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 8
+   srcRaw: SC
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   speedPrec: 0
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 9
+   srcRaw: SD
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   speedPrec: 0
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 10
+   srcRaw: SE
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   speedPrec: 0
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 11
+   srcRaw: SF
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   speedPrec: 0
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
 expoData: 
  -
    mode: 3

@@ -105,7 +105,7 @@ mixData:
  -
    weight: 100
    destCh: 5
-   srcRaw: SF
+   srcRaw: SB
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -121,6 +121,22 @@ mixData:
  -
    weight: 100
    destCh: 6
+   srcRaw: SA
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   speedPrec: 0
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 7
    srcRaw: SE
    carryTrim: 0
    mixWarn: 0
@@ -195,7 +211,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: ls(1)
+   srcRaw: SF
    chn: 4
    swtch: "NONE"
    flightModes: 000000000
@@ -205,13 +221,6 @@ expoData:
    curve: 
       type: 1
       value: 0
-logicalSw: 
-   0:
-      func: FUNC_STICKY
-      def: "SC2,SD2"
-      andsw: "NONE"
-      delay: 0
-      duration: 0
 thrTraceSrc: Thr
 switchWarning: 
    SA:

@@ -135,14 +135,14 @@ mixData:
    speedDown: 0
    name: ""
  -
-   weight: 25
+   weight: 100
    destCh: 7
-   srcRaw: SW2
+   srcRaw: SE
    carryTrim: 0
    mixWarn: 0
-   mltpx: REPL
+   mltpx: ADD
    speedPrec: 0
-   offset: -75
+   offset: 0
    swtch: "NONE"
    flightModes: 000000000
    delayUp: 0
@@ -151,8 +151,40 @@ mixData:
    speedDown: 0
    name: ""
  -
+   weight: 100
+   destCh: 8
+   srcRaw: MIN
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   speedPrec: 0
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 25
+   destCh: 8
+   srcRaw: SW2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   speedPrec: 0
+   offset: -75
+   swtch: "SW22"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
    weight: 40
-   destCh: 7
+   destCh: 8
    srcRaw: SW3
    carryTrim: 0
    mixWarn: 0
@@ -168,7 +200,7 @@ mixData:
    name: ""
  -
    weight: 60
-   destCh: 7
+   destCh: 8
    srcRaw: SW4
    carryTrim: 0
    mixWarn: 0
@@ -184,7 +216,7 @@ mixData:
    name: ""
  -
    weight: 75
-   destCh: 7
+   destCh: 8
    srcRaw: SW5
    carryTrim: 0
    mixWarn: 0
@@ -200,7 +232,7 @@ mixData:
    name: ""
  -
    weight: 100
-   destCh: 7
+   destCh: 8
    srcRaw: SW6
    carryTrim: 0
    mixWarn: 0
@@ -208,22 +240,6 @@ mixData:
    speedPrec: 0
    offset: 0
    swtch: "SW62"
-   flightModes: 000000000
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: ""
- -
-   weight: 100
-   destCh: 8
-   srcRaw: SE
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: ADD
-   speedPrec: 0
-   offset: 0
-   swtch: "NONE"
    flightModes: 000000000
    delayUp: 0
    delayDown: 0
@@ -824,7 +840,7 @@ view: 0
 modelRegistrationID: ""
 functionSwitchConfig: 2729
 functionSwitchGroup: 1365
-functionSwitchStartConfig: 2730
+functionSwitchStartConfig: 1365
 functionSwitchLogicalState: 0
 usbJoystickExtMode: 0
 usbJoystickIfMode: JOYSTICK
